@@ -932,6 +932,86 @@ header{
     height: auto;
 }
 
+.section-footer--area {
+    display: flex;
+    height: 200px;
+}
+
+.section-footer--social {
+    flex: 1;
+    display: flex;
+}
+
+.section-footer--social .area-img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b3731;
+    border-radius: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.section-footer--social .area-img:hover {
+    background: #B28756;
+}
+
+.section-footer--social-copy {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-footer--social-copy .copy {
+    font-size: 10px;
+}
+
+.section-footer--desc {
+    flex: 1;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.section-footer--subscribe {
+    flex: 1;
+    margin: 0px 30px;
+    background: #3b3731;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-footer--subscribe .inputSub {
+    height: 40px;
+    text-align: center;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.section-footer--subscribe .buttom-sub {
+    text-decoration: none;
+    border: 2px solid #B28756;
+    color: white;
+    background: #B28756;
+    padding: 8px 40px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.section-footer--subscribe ::placeholder{
+    font-size: 11px;
+}
+
+
+
 
 
 
